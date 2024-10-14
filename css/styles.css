@@ -701,16 +701,28 @@ body.light-theme{
 }
 
 .contact__info{
-  display: grid;
+  display:grid;
   gap: 1rem;
 }
+
 
 .contact__card{
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: .75rem;
   text-align: center;
+  display: center;
 }
+
+.contact__card_two{
+  background-color: var(--container-color);
+  padding: 1rem;
+  border-radius: .75rem;
+  text-align: center;
+  display: center;
+  margin-bottom: 4rem;
+}
+
 .contact__card-icon{
   font-size: 2rem;
   color: var(--title-color);
